@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jacob Barber - Software Engineer</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/scripts.js"></script>
+  </head>
+
+  <body>
+    <div id="floating-clock"></div>
+    <section class="header">
+      <div class="content">
+        <header>
+          <div class="contact-info">
+            Jacob Barber | Senior Software Engineer | 469-713-4764 | JacobA.Barber@yahoo.com
+          </div>
+        </header>
+        <nav>
+          <h1>Resume</h1>
+          <div>
+            <a href="#"><strong>Resume</strong></a>
+            •
+            <a href="cover-letter.html">Cover Letter</a>
+            •
+            <a href="career-goals.html">Career Goals</a>
+            •
+            <a href="https://github.com/jacoby6000">GitHub</a>
+            •
+            <a href="https://polehammer.net">polehammer.net</a>
+            •
+            <a href="https://unchained.wiki">Chivalry 2 Unchained</a>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <main>
+      <section class="light">
+        <div class="content group">
+          <article class="flex1">
+            <h3>Objective</h3>
+            <p>
+              I aim to expand and apply my knowledge to new domains, like systems infrastructure management, AI model
+              development, and agentic workflow implementations while improving my Haskell chops.
+            </p>
+          </article>
+
+          <article class="flex1">
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>Scala (SBT, Doobie, Akka, Scalaz, Cats)</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>PostgreSQL/MySQL</li>
+              <li>Functional Programming</li>
+              <li>Haskell</li>
+              <li>AWS</li>
+              <li>Data Schema Management</li>
+              <li>Reverse Engineering</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="dark">
+        <div class="content">
+          <h2 id="work-experience">
+            <a href="#work-experience"><span>#</span>Work Experience</a>
+          </h2>
+
+          <article>
+            <h3>Senior Software Engineer for Disney</h3>
+            <div class="job-date">January 2018 – Present</div>
+            <ul class="description">
+              <li>
+                Created tools to identify outages and affected systems and perform RCA to reduce losses, increase
+                uptime, and ultimately improve the user experience at the frontend
+              </li>
+              <li>
+                Built tools to generate dependency graphs, which significantly reduce the time needed to propagate
+                releases through multiple complex systems
+              </li>
+              <li>
+                Helped design tools used throughout the organization to collaboratively develop, maintain
+                collaboratively, and distribute data schemas in a cross-platform manner, leading to faster time to
+                market
+              </li>
+              <li>
+                Significantly reduced the communication overhead of team collaboration within complex cross-organization
+                efforts
+              </li>
+              <li>Developed the API and programming architecture underpinning Disney's event streaming framework</li>
+              <li>
+                Worked directly with product managers to improve the Ad serving capabilities of the streaming platform
+              </li>
+              <li>
+                Developed services allowing product managers to inspect application decisions and to show what users
+                would have seen during a viewing session, as well as the interactions with other HTTP services, which
+                ultimately led to the given decision
+              </li>
+              <li>
+                Significantly improved performance through benchmarking and JVM tuning, reducing costs for our running
+                services
+              </li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Senior Software Engineer for StackPath</h3>
+            <div class="job-date">July 2016 – December 2017</div>
+            <ul class="description">
+              <li>
+                Developed a website speed and vulnerability scanning tool using Twitter's Finagle, integrating with
+                several other cloud-based web services and Redis. This tool markets our speed and security-focused CDN
+              </li>
+              <li>
+                Mentored new and existing Scala developers on best practices within the language, as well as how to do
+                functional programming using category theory from Cats/Scalaz
+              </li>
+              <li>Helped explore new technologies to add to our toolchain or to replace existing tools</li>
+              <li>
+                Developed the underlying libraries that are now used to fuel all web APIs within the StackPath systems
+              </li>
+              <li>Created an XML RPC module for running a website speed profiling tool from an RPC node</li>
+              <li>
+                Created documentation on how to use various functional type-classes like Functor, Monad, Monoid, and
+                Bitraverse with a focus on applicability rather than theory
+              </li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Software Engineer and Lead Engineer for Bottle Rocket Studios</h3>
+            <div class="job-date">June 2015 – July 2016</div>
+            <ul class="description">
+              <li>
+                Used Scala to Develop and eventually lead a complex greenfield product that provides an online ordering
+                and loyalty program for a national restaurant chain hosted in AWS
+              </li>
+              <li>
+                Leveraged Amazon SQS to provide a scalable solution for managing loyalty transactions and operations
+              </li>
+              <li>
+                Created independent services to manage ETL processes, which would provide data to REST APIs for
+                consumption by client devices
+              </li>
+              <li>Eliminated unnecessary Akka actor layers in favor of a simpler, more type-safe solution</li>
+              <li>
+                Introduced teams to Scalaz and Cats and mentored team members on how to make use of their abstractions
+              </li>
+              <li>Mentored other engineers on Scala best practices and functional programming best practices</li>
+              <li>Led discussions with other sister teams to move the group forward with new technologies and ideas</li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Software Engineer for Cytracom, LLC</h3>
+            <div class="job-date">August 2013 – June 2015</div>
+            <ul class="description">
+              <li>Developed atomic UNIX services and applications in Scala</li>
+              <li>Created software that would perform automatic provisioning of hardware shipped out to customers</li>
+              <li>
+                Created an application that would parse Asterisk's flat Call-Detail-Record (CDR) data format into a more
+                conventional dataset that is well-represented by JSON and easy to consume
+              </li>
+              <li>
+                Set up a nightly FTP process for customers who have requested the ability to store their recordings
+                locally
+              </li>
+              <li>Designed, developed, and deployed (eventually via CIS) the company's core PHP REST API</li>
+              <li>Created API integrations to handle the creation and modification of VoIP call paths in asterisk</li>
+              <li>
+                Integrated billing systems with our platform so that it handles all billing transactions and accounting
+                reports
+              </li>
+              <li>
+                Worked directly with the business owners and founders to develop a product that would enhance the
+                experience of the end user whilst simplifying internal company procedures via applications and services
+              </li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Web-Designer for The Deyogroup, Inc.</h3>
+            <div class="job-date">March 2012 – August 2013</div>
+            <ul class="description">
+              <li>Maintained and developed reactive and interactive websites via HTML, CSS, and Javascript</li>
+              <li>Developed applications to aid in data migration using Java</li>
+              <li>Developed HTML parsers that use Javascript to convert HTML from one format to another</li>
+              <li>
+                Wrote an ETL pipeline to convert an external business' data format to the product's data format using
+                Java
+              </li>
+            </ul>
+          </article>
+
+          <br />
+        </div>
+      </section>
+
+      <section class="blue">
+        <div class="content">
+          <h2 id="open-source-projects">
+            <a href="#open-source-projects"><span>#</span>Open Source Projects</a>
+          </h2>
+
+          <article>
+            <h3>Polehammer Poster</h3>
+            <ul class="description">
+              <li>Created an AI leveraging the polehammer.net weapons data</li>
+              <li>Helped users on Reddit with questions about weapon comparisons</li>
+              <li>Inferred when a misunderstanding was happening or when an interjection would be helpful</li>
+              <li>Beloved by many in the Chivalry 2 community</li>
+              <li>
+                See
+                <a href="https://reddit.com/u/polehammerposter"><mark>/u/polehammerposter</mark></a>
+                on Reddit
+              </li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Chivalry 2 Unchained</h3>
+            <ul class="description">
+              <li>Created a 0-cost package management system</li>
+              <li>
+                Created a replacement backend for a live service, projected to stop working in the next couple of years
+              </li>
+              <li>
+                Created a WPF app for users to manage game modifications without interfering with their ability to play
+                unmodified on official servers
+              </li>
+              <li>
+                Reverse-engineered several backend web service calls and rerouted them to our backend so that modified
+                servers do not interact with the live service or impact the UX of other players playing an unmodified
+                version
+              </li>
+              <li>Created a distributed ban system to help deal with a significant cheating problem</li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Polehammer.net</h3>
+            <ul class="description">
+              <li>Provides multiple visualizations of weapon stats from the game Chivalry 2</li>
+              <li>Allows quick and easy objective comparison of key characteristics of the various weapons</li>
+              <li>
+                Created an ingest tool that interprets the game data and generates a changelog to indicate weapon
+                balance differences
+              </li>
+              <li>
+                Provided npm packages containing just the weapon data for other developers to create their own projects
+              </li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>VimPort Sort</h3>
+            <ul class="description">
+              <li>Created a vim import sorting plugin</li>
+              <li>User configurable and well-documented</li>
+              <li>Usable with any language that uses top-of-file imports</li>
+              <li>Subdivides imports into user-configurable import groups</li>
+            </ul>
+          </article>
+
+          <hr />
+
+          <article>
+            <h3>Lan Mouse</h3>
+            <ul class="description">
+              <li>Added Macos multi-monitor support to a Rust code base</li>
+              <li>
+                Better multi-monitor experience than the current industry-standard alternative to lan-mouse, Synergy
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="light">
+        <div class="content">
+          <h2 id="favorite-languages">
+            <a href="#favorite-languages"><span>#</span>Favorite Programming Languages and their features</a>
+          </h2>
+          <article>
+            <table>
+              <caption>
+                The best features of some of the most usable languages
+              </caption>
+              <tr>
+                <th>Programming Language</th>
+                <th>Static Typing</th>
+                <th>Higher Kinded Types</th>
+                <th>Typeclasses/Adhoc polymorphism</th>
+              </tr>
+              <tr>
+                <td>Scala</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Haskell</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Rust</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Yes</td>
+              </tr>
+            </table>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="content">
+        <p>
+          <em> Jacob Barber | Senior Software Engineer | 469-713-4764 | JacobA.Barber@yahoo.com </em>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
